@@ -1,0 +1,57 @@
+.main
+{
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 100px;
+}
+.top
+{
+    padding: 50px;
+    font-size: 3rem;
+    font-weight: 300;
+    
+}
+.middle
+{
+    display: flex;
+    justify-content: center;
+}
+.rotate
+{
+    transform: rotate(-90deg);
+    font-size: 2rem;
+    color: #bababa;
+}
+
+@media (max-width: 768px)
+{
+    .main{
+        max-height: none;
+    }
+    .rotate{
+        transform: rotate(0);
+        font-size: 1.5rem;
+    }
+    .middle{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .top{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .container{
+        margin: 50px 30px;
+        gap: 0px;
+    }
+}

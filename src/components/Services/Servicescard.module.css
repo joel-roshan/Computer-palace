@@ -1,0 +1,39 @@
+.servicecard
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img
+{
+    width: 300px;
+    height:auto;
+    
+}
+.text
+{
+    color: white;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.25rem;
+}
+
+
+@media (max-width: 768px)
+{
+   
+    .img
+    {
+        width: 150px;
+        height: auto;
+    }
+    .text
+    {
+        width: 150px;
+        font-size: 1rem;
+    }
+}
+

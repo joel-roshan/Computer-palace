@@ -1,0 +1,76 @@
+.services
+{
+    min-height:100vh;
+}
+.title
+{
+    font-size: 2.5rem;
+    padding: 50px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+.tilted
+{
+    border-bottom: 3px solid #7fa2ff;
+    font-size: 3rem;
+    transform : rotate(-90deg);
+    color: #bebebe;
+    
+}
+.tiltedholder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicecardsholder
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    overflow-y: scroll;
+}
+.bottomthing
+{
+    height: 30vh;
+    width: 100%;
+    background-color: #7fa2ff;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px)
+{
+   
+    .bottomthing
+    {
+        height: 20vh;
+    }
+    .title
+    {
+        font-size: 1.8rem;
+        padding: 20px;
+        text-align: center;
+    }
+    .tilted
+    {
+        font-size: 1.5rem;
+        transform: rotate(0deg);
+       
+    }
+    .container{
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 20px;
+    }
+    .servicecardsholder
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+

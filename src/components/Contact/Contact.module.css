@@ -1,0 +1,48 @@
+.contactcontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.contact
+{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f5f5f5;
+}
+
+.contacttitle
+{
+    font-size: 3rem;
+    padding: 50px;
+    padding-bottom:100px ;
+    
+
+}
+
+
+@media (max-width: 1000px) {
+    .contacttitle
+    {
+        font-size: 1.8rem;
+        padding: 50px 0px;
+        
+        text-align: center;
+    }
+    .contactcontainer
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .contact
+    {
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+}

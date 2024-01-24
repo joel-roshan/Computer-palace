@@ -1,0 +1,74 @@
+.main
+{
+    background-color: #7fa2ff;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    min-height: 30vh;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+}
+.right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    line-height: 1.6;
+}
+.bottom
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.top
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    align-items: center;
+}
+.title
+{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+@media (max-width: 768px)
+{
+    .main
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left
+    {
+        margin-bottom: 0;
+        gap: 20px;
+    }
+    .right
+    {
+        margin-top: 20px;
+    }
+    .title
+    {
+        font-size: 1.2rem;
+    }
+    .text
+    {
+        font-size: 0.8rem;
+    }
+    .right
+    {
+        font-size: 0.8rem;
+    }
+}
