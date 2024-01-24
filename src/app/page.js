@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import Hero from "../components/hero/Hero.jsx"
-import About from "../components/about/About.jsx"
+import About from "../components/About/About.jsx"
 import Contact from "../components//Contact/Contact.jsx"
 import Services from "../components/Services/Services.jsx"
 import Faq from "../components/Faqpage/Faqpage.jsx"

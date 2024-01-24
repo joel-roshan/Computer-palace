@@ -70,8 +70,8 @@
         width: 100vw;
         align-items: center;
         padding: 0px 10px;
-        background-color: transparent;
-        backdrop-filter: blur(50px);
+        background-color: white;
+        backdrop-filter: blur(100px);
     }
     .moblogo
     {
