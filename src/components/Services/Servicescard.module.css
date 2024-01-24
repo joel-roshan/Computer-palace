@@ -7,15 +7,15 @@
 }
 .img
 {
-    width: 300px;
-    height:auto;
+    width: auto;
+    height:250px;
     
 }
 .text
 {
     color: white;
     background-color: black;
-    width: 300px;
+    width: 100%;
     text-align: center;
     padding: 10px 0;
     font-size: 1.25rem;

@@ -12,7 +12,7 @@ const About = () => {
                 About Us
             </div>
             <div className={styles.title2}>
-                COMPUTER PALACE
+                <h1>COMPUTER PALACE</h1>
             </div>
             
         </div>

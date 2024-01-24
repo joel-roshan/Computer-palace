@@ -41,7 +41,7 @@ const toggleNav  = () => {
       </div>
       <div className={styles.contact}>
         <button className={styles.contactbtn}>
-            Contact Us
+            <a href="#contact">Contact Us</a>
         </button>
       </div>
       </div>
