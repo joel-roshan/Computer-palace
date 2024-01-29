@@ -26,7 +26,7 @@ const Contact = () => {
         img={Phone}
         alt="Phone"
         info={
-            <div dangerouslySetInnerHTML={{ __html: "<br /><br />7012910665" }} />
+            <div dangerouslySetInnerHTML={{ __html: "<br /><br />9447183583" }} />
             }
         
       />

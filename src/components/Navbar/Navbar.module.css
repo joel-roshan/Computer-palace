@@ -7,11 +7,12 @@
 }
 .container
 {
-    width: 80vw;
+    width: 100vw;
    
     display: flex;
     gap: 30px;
     align-items: center;
+    justify-content: center;
 }
 .nav
 {
@@ -42,9 +43,9 @@
 {
     background-color: #7fa2ff;
     border-radius: 30px;
-    padding: 5px 10px;
+    padding: 10px 16px;
     border: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .mobnav
 {
@@ -77,6 +78,10 @@
     {
         width: 50px;
         height: 50px;
+    }
+    .mobtitle
+    {
+        color: #7fa2ff;
     }
     .links
     {

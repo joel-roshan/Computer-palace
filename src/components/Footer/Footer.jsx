@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
@@ -13,19 +14,19 @@ const Footer = () => {
         </div>
         <div className={styles.bottom}>
           <div className={styles.icons}>
-            <FaWhatsapp size={24} />
+           <a href="https://www.instagram.com/invites/contact/?i=fpdrs2xtvc3k&utm_content=3dsj87r"> <FaInstagram size={24} /></a>
           </div>
           <div className={styles.icons}>
-            <FaFacebook size={24} />
+            <a href="https://www.facebook.com/profile.php?id=100064029003823&mibextid=ZbWKwL"><FaFacebook size={24} /></a>
           </div>
         </div>
       </div>
       <div className={styles.right}>
         <div className={styles.address}>
-          Computer Palace Laptop Servicing <br />
-          Center, Aramanappady,<br />
-          City Textile Road ,Aramanappady, <br />
-          Changanacherry,<br />
+          Computer Palace -Laptop Mobile Phone Service <br />
+          PMJ Complex,<br />
+          Near KSRTC Privat Bus stand, <br />
+          Changanassery,<br />
           Kottayam, 686101,<br />
           Kerala
         </div>
