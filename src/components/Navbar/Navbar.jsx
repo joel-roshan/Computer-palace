@@ -50,7 +50,9 @@ const toggleNav  = () => {
           <div className={styles.imgcontainer}>
             <Image className={styles.moblogo} src={Logo} alt="Computer Palace"/>
           </div>
-          <div className={styles.mobtitle}>Computer Palace</div>
+          <div className={styles.mobtitle}>
+                COMPUTER PALACE | BEST MOBILE PHONE SERVICE AT CHANGANASSERY | LAPTOP CHIPLEVEL SERVICE
+          </div>
           <div className={styles.ham}>
             {!nav&&<button className={styles.hambtn} onClick={toggleNav}>
               <Image src={Ham} alt="hamburger"/>  
