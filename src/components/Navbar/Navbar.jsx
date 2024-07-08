@@ -20,7 +20,7 @@ const toggleNav  = () => {
             <Image className={styles.logo} src={Logo} alt="Computer Palace"/>
           </div>
           <div className={styles.lefttext}>
-            COMPUTER PALACE
+              COMPUTER PALACE | BEST MOBILE PHONE SERVICE AT CHANGANASSERY | LAPTOP CHIPLEVEL SERVICE
           </div>
         </div>
         <div className={styles.right}>

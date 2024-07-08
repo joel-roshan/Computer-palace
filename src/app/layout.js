@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Computer Palace -Laptop Mobile Phone Service",
+  title: "  COMPUTER PALACE | BEST MOBILE PHONE SERVICE AT CHANGANASSERY | LAPTOP CHIPLEVEL SERVICE",
   description: "Changanassery's Tech Repair Heroes! Fast, affordable fixes for laptops, phones & TVs. New & used tech too!Computer Palace #Changanassery #Kerala"
 };
 

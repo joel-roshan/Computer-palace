@@ -9,7 +9,7 @@ const Footer = () => {
     <div className={styles.main}>
       <div className={styles.left}>
         <div className={styles.top}>
-          <div className={styles.title}>COMPUTER PALACE</div>
+          <div className={styles.title}>COMPUTER PALACE | BEST MOBILE PHONE SERVICE AT CHANGANASSERY | LAPTOP CHIPLEVEL SERVICE</div>
           <div className={styles.text}>Your Gadgets, Our Expertise</div>
         </div>
         <div className={styles.bottom}>
@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className={styles.right}>
         <div className={styles.address}>
-          Computer Palace -Laptop Mobile Phone Service <br />
+          Computer Palace | best mobile phone service at Changanassery | Laptop chiplevel service <br />
           PMJ Complex,<br />
           Near KSRTC Privat Bus stand, <br />
           Changanassery,<br />

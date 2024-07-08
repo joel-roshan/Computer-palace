@@ -21,7 +21,7 @@ const Map = () => {
         </div>
         </div>
         <div className={styles.address}>
-         Computer Palace -Laptop Mobile Phone Service <br />
+          Computer Palace | best mobile phone service at Changanassery | Laptop chiplevel service <br />
           PMJ Complex,<br />
           Near KSRTC Privat Bus stand, <br />
           Changanassery,<br />

@@ -12,7 +12,7 @@ const About = () => {
                 About Us
             </div>
             <div className={styles.title2}>
-                <h1>COMPUTER PALACE</h1>
+                <h1 >COMPUTER PALACE | BEST MOBILE PHONE SERVICE AT CHANGANASSERY | LAPTOP CHIPLEVEL SERVICE</h1>
             </div>
             
         </div>
